@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="startPage">
+        <button id="startButton">スタート</button>
+    </div>
+    <div id="questionPage" hidden>
+        <span id="timer">0秒経過</span>
+        <p>
+            <span id="displayNumber1">１</span>
+            <span>×</span>
+            <span id="displayNumber2">２</span>
+            <span>=</span>
+            <span><input id="userInput" /></span>
+        </p>
+    </div>
+    <div id="resultPage" hidden>
+        <span id="timerResult"></span>
+        <ul id="resultList">結果</ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
